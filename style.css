@@ -147,6 +147,10 @@ h3{
   object-fit: cover;
   height: 128px;
 }
+.div-flex{
+  width: 61%;
+  margin: 0 auto;
+}
 
 .hidden{
   display: none;
@@ -207,6 +211,8 @@ h3{
   width: 10ch;
   margin-bottom: 10px;
   margin-top: -15px;
+  margin-left: 0px;
+    margin-right: 0px;
  }
   .section-link{
   font-size: 14px;
@@ -224,19 +230,30 @@ h3{
   }
   .news{
     width: 100%;
-    padding: 20px;  
   }
   .last-section{
-    gap: 10px;
     flex-direction: column;
     width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    gap: 30px;
   }
+ 
   .container{
     margin: 0 ;
     padding: 0;
   }
   .last-section img{
     width: 100px;
+  }
+  .flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
   }
   .flex p{
     font-size: 12px;
