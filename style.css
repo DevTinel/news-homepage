@@ -227,19 +227,18 @@ h3{
     justify-content: center;
     flex-direction: column;
     width: 80%;
-    background-color: #000;
   }
   .container{
-    width: 300px;
     margin: 0 ;
     padding: 0;
   }
   .last-section img{
-    width: 30%;
+    width: 100px;
   }
   .flex p{
     font-size: 12px;
   }
+  
   .no-links{
     display: none;
   } 
