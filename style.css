@@ -191,6 +191,8 @@ h3{
   }
 }
 
+/* RESPONSIVO */
+
 
 @media (max-width:768px) {
   .hidden{
@@ -200,16 +202,18 @@ h3{
     margin-left: 5%;
     margin-right: 50%;
   }
-  h1,h2{
-    font-size: 1rem !important;
-  }
+ h1{
+  font-size: 3rem;
+  width: 10ch;
+  margin-bottom: 10px;
+  margin-top: -15px;
+ }
   .section-link{
   font-size: 14px;
   }
-  .div-img img{
-    width: 80%;
-    margin: 0 ;
-    padding: 0;
+  .img-principal{
+    width: 100%;
+    padding: 20px;
   }
   .section-flex{
     flex-direction: column;
@@ -220,13 +224,12 @@ h3{
   }
   .news{
     width: 100%;
+    padding: 20px;  
   }
   .last-section{
     gap: 10px;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
   }
   .container{
     margin: 0 ;
@@ -246,5 +249,4 @@ h3{
  
 }
 
-/* RESPONSIVO */
 
